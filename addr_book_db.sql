@@ -18,3 +18,8 @@ CREATE TABLE address_book (
 
 # Describing table
 desc address_book;
+
+# Inserting records to table
+INSERT INTO	address_book VALUES ('Pradeep', 'Rao', '23 Sambhu Nagar', 'Akola', 'Maharashtra', 444001, 9877832732, 'raopradeep@gmail.com');
+INSERT INTO	address_book VALUES ('Kuldeep', 'Verma', '30 Varun gali', 'Tikamgarh', 'Madhya Pradesh', 472001, 9878792332, 'kuldeep477@gmail.com');
+
