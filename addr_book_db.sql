@@ -28,3 +28,6 @@ SET SQL_SAFE_UPDATES = 0;
 
 # Editing existed record
 UPDATE address_book SET phone_number = 8883278342, email = 'kuldeep77verma@gmail.com' where first_name = "Kuldeep" and last_name = "Verma";
+
+# Delete a person using persons name
+DELETE FROM address_book WHERE first_name = 'Pradeep' and last_name = 'Rao';
