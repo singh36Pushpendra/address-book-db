@@ -34,3 +34,6 @@ DELETE FROM address_book WHERE first_name = 'Pradeep' and last_name = 'Rao';
 
 # Retrieving records based on particular city or state
 SELECT * FROM address_book WHERE city = 'Tikamgarh' and state = 'Madhya Pradesh';
+
+# Size(count) of address book by city and state.
+SELECT COUNT(*) FROM address_book WHERE city = 'Tikamgarh' and state = 'Madhya Pradesh';
