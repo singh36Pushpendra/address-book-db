@@ -37,3 +37,7 @@ SELECT * FROM address_book WHERE city = 'Tikamgarh' and state = 'Madhya Pradesh'
 
 # Size(count) of address book by city and state.
 SELECT COUNT(*) FROM address_book WHERE city = 'Tikamgarh' and state = 'Madhya Pradesh';
+
+# Retrieve entries sorted alphabetically from particular column value.
+SELECT * FROM address_book where city = 'Tikamgarh' order by first_name, last_name;
+
