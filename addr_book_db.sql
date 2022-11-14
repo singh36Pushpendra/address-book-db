@@ -23,3 +23,8 @@ desc address_book;
 INSERT INTO	address_book VALUES ('Pradeep', 'Rao', '23 Sambhu Nagar', 'Akola', 'Maharashtra', 444001, 9877832732, 'raopradeep@gmail.com');
 INSERT INTO	address_book VALUES ('Kuldeep', 'Verma', '30 Varun gali', 'Tikamgarh', 'Madhya Pradesh', 472001, 9878792332, 'kuldeep477@gmail.com');
 
+# Disabling Safe Update mode.
+SET SQL_SAFE_UPDATES = 0;
+
+# Editing existed record
+UPDATE address_book SET phone_number = 8883278342, email = 'kuldeep77verma@gmail.com' where first_name = "Kuldeep" and last_name = "Verma";
