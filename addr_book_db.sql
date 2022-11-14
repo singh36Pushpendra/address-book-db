@@ -31,3 +31,6 @@ UPDATE address_book SET phone_number = 8883278342, email = 'kuldeep77verma@gmail
 
 # Delete a person using persons name
 DELETE FROM address_book WHERE first_name = 'Pradeep' and last_name = 'Rao';
+
+# Retrieving records based on particular city or state
+SELECT * FROM address_book WHERE city = 'Tikamgarh' and state = 'Madhya Pradesh';
