@@ -44,3 +44,5 @@ SELECT * FROM address_book where city = 'Tikamgarh' order by first_name, last_na
 # Adding address book name and type to table.
 Alter table address_book add (addr_book_name varchar(30), addr_book_type varchar(25));
 
+# Getting count by type.
+SELECT COUNT(*) FROM address_book group by addr_book_type;
