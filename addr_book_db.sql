@@ -46,3 +46,11 @@ Alter table address_book add (addr_book_name varchar(30), addr_book_type varchar
 
 # Getting count by type.
 SELECT COUNT(*) FROM address_book group by addr_book_type;
+
+# Adding entry for friend and family types
+INSERT INTO address_book VALUES (
+	"Aadarsh", "Songara", "27 Balgarh", "Pune", "Maharashtra", 444002, 8874387435, "aadarsh@gmail.com", "My Friends", "Friends"
+);
+INSERT INTO address_book VALUES (
+	"Radhbai", "Jhala", "43 Racholi", "Dewas", "Madhya Pradesh", 423002, 9833287435, "bairadha@gmail.com", "Cool Family", "Family"
+);
